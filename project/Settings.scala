@@ -12,7 +12,7 @@ import sbtrelease.ReleasePlugin.autoImport._
 import scala.collection.immutable
 import scalariform.formatter.preferences.{ AlignSingleLineCaseStatements, DanglingCloseParenthesis, DoubleIndentClassDeclaration, Force }
 
-object Settings{
+object Settings {
 
   def headerLicenseSettings =
     Seq(
